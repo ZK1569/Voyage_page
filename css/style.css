@@ -216,8 +216,8 @@ h2{
 /*----------------------------footer-----------------------------*/
 
 .img_end{
-    width: 130%;
-    height: 75vh;
+    width: 175rem;
+    height: 36rem;
     object-fit: cover;
     object-position: -18rem -30rem;
 }
