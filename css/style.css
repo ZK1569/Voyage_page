@@ -1,0 +1,258 @@
+@font-face{
+    font-family: Ibarra Real Nova;
+    src: url(../fonts/IbarraRealNova/IbarraRealNova-VariableFont_wght.ttf);   
+}
+@font-face{
+    font-family: Ibarra Real Nova Italic;
+    src: url(../fonts/IbarraRealNova/IbarraRealNova-Italic-VariableFont_wght.ttf);  
+     
+}
+@font-face{
+    font-family: Ibarra Real Nova Bold;
+    src: url(../fonts/IbarraRealNova/static/IbarraRealNova-Bold.ttf);  
+     
+}
+@font-face{
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);   
+}
+
+body{
+    background-color: #f1f1f1f1;
+    font-family: Quicksand;
+    overflow-x: hidden;
+    cursor:default;
+    user-select : none;
+}
+.top .second a{
+    color: #f1f1f1f1;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/*--------------------------nav-------------------------------------*/
+.top{
+    z-index: 100000;
+    display: flex;
+    color: #f1f1f1f1;
+    background-color: rgba(10, 10, 10, .75);
+    height: 2.5rem;
+    justify-content:space-around;
+    position: fixed;
+    width: 100%;
+
+}
+.logo_img{
+    height: 2rem;
+}
+.logo{
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: row;
+}
+.jet{
+    margin:0.5rem;
+}
+.lag{
+    margin-left: 0;
+    margin: 0.5rem ;
+    font-family: Ibarra Real Nova Italic;
+}
+.second ul{
+    display: flex;
+    flex-direction: row;
+}
+.direction{
+    margin: 0.75rem ;
+    cursor: pointer;
+} 
+/*--------------------------banniere---------------------------*/
+
+.img_accueil{
+    width: 175rem;
+    height: 36rem;
+    object-fit: cover; 
+    object-position: top left;
+}
+.titre{
+    margin: 0 auto;
+    color: #f1f1f1f1;
+    width: 90rem;
+    text-align: right;
+    margin-top: -22rem;
+    margin-bottom: 24rem; 
+}
+.t1{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+.t2{
+    font-size: 2.5rem;
+    font-family: Ibarra Real Nova;
+}
+
+/*----------------------------destinations-----------------------------*/
+
+.article_destinations{
+    width: 90rem;
+    margin: 0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+h2{
+    margin: 2rem;
+    text-align: center;
+    color: #333;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.img_islande_article_destinations{
+    width: 62rem;
+    cursor: pointer;
+}
+
+.img_article_destinations{
+    width: 27rem;
+    cursor: pointer;
+}
+
+.description{
+    margin: 0.75rem 0;
+    font-size: 0.75rem;
+}
+
+.titre_img{
+    font-size: 1.5rem;
+    font-family: Ibarra Real Nova Bold;
+}
+
+.droit_bas{
+    margin-top: 22.75rem;
+    margin-left: -28rem;
+}
+
+/*----------------------------voyages-----------------------------*/
+
+.voyages{
+    margin-top: 5rem;
+    padding: 2rem 0;
+    background-color: rgb(230, 230, 230);
+}
+.article_voyages{
+    width: 90rem;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto ;
+}
+
+.img_espagne{
+    width: 46.5rem;
+    cursor: pointer;
+}
+
+.img_italie_toscane{
+    width: 42.5rem;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 13rem;
+    text-align: center;
+}
+.btn1{
+    border: 2px solid #333;
+    outline: none;
+    background: transparent;
+    width: 12rem;
+    height: 4rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/*----------------------------articles-----------------------------*/
+.articles{
+    margin-top: 3rem;
+}
+
+.les_photos{
+    margin-left: 10%;
+    transform: translateX(10%);
+}
+
+.ligne{
+    width: 90rem;
+    display: flex;
+    gap: 3rem;
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.img_articles{
+    margin-top: 1rem;
+    height: 12rem;
+    width: 15rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.article{
+    gap: 1rem;
+    text-align:left;
+    display: flex;
+}
+
+.description-article{
+    margin-top: 20%;
+    transform: translateY(-20%);
+}
+
+/*----------------------------footer-----------------------------*/
+
+.img_end{
+    width: 133rem;
+    height: 36rem;
+    object-fit: cover;
+    object-position: -9rem -32rem;
+}
+
+.titre{
+    color: #f1f1f1f1;
+    width: 90rem;
+    text-align: right;
+    top: 33vh;
+    margin-top: -22rem;
+    margin-bottom: 24rem; 
+}
+
+.titre_contact{
+    margin: 0 auto;
+    color: #f1f1f1f1;
+    width: 90rem;
+    text-align: center;
+    margin-top: -30rem; 
+}
+.t3{
+    margin: 1.5rem;
+    font-size: 3.5rem;
+    font-family: Ibarra Real Nova;
+}
+.t4{
+    font-size: 1.4rem;
+    font-family: Ibarra Real Nova;
+}
+
+.btn2{
+    border: 2px solid transparent;
+    background: #f1f1f1;
+    width: 12rem;
+    height: 4rem;
+    color: #333;
+    cursor: pointer;
+}
